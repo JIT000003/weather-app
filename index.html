@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button class="searchButton"><img src="./images/search.png" alt="search"></button>
+        </div>
+        <div class="weather">
+            <img src="./sun/clear.png" alt="clear" class="weatherIcon">
+            <h1 id="temp">--°c</h1>
+            <h2 id="city">Enter City Name</h2>
+            <div class="details">
+                <div class="col">
+                <img src="./images/humidity.png" alt="humidity">
+                <div>
+                    <h1 class="humidity">--%</h1>
+                    <h2>Humidity</h2>
+                </div>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png" alt="wind">
+                    <div>
+                        <h1 class="wind"v>-- km/h</h1>
+                        <h2>Wind Speed</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
